@@ -1,9 +1,10 @@
 import './App.css';
 import RandomizeColor from './projects/02-randomize-colors/RandomizeColor';
-import LikePhotoAp from './projects/03-like-my-photo/LikePhotoAp';
-import TestimonialsApp from './projects/04-testimonials-app/TestimonialsApp';
-import AlertApp from './projects/05-alerts/AlertApp';
+// import LikePhotoAp from './projects/03-like-my-photo/LikePhotoAp';
+// import AlertApp from './projects/05-alerts/AlertApp';
 // import EsignatureApp from './projects/01-e-signature-app/EsignatureApp';
+import TestimonialsApp from './projects/04-testimonials-app/TestimonialsApp';
+import TemperatureControllerApp from './projects/06-temperature-controller/TemperatureControllerApp';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       {/* <RandomizeColor /> */}
       {/* <LikePhotoAp /> */}
       {/* <TestimonialsApp /> */}
-      <AlertApp />
+      {/* <AlertApp /> */}
+      <TemperatureControllerApp />
     </div>
   );
 }
