@@ -6,6 +6,7 @@ import './App.css';
 // import TestimonialsApp from './projects/04-testimonials-app/TestimonialsApp';
 // import TemperatureControllerApp from './projects/06-temperature-controller/TemperatureControllerApp';
 import LightAndDarkMode from './projects/07-light-and-dark-mode/LightAndDarkMode';
+import SLideToUnlock from './projects/08-slide-to-unlock/SLideToUnlock';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       {/* <AlertApp /> */}
       {/* <TemperatureControllerApp /> */}
       {/* <LightAndDarkMode /> */}
-      
+      <SLideToUnlock />
     </div>
   );
 }
