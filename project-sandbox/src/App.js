@@ -5,9 +5,11 @@ import './App.css';
 // import EsignatureApp from './projects/01-e-signature-app/EsignatureApp';
 // import TestimonialsApp from './projects/04-testimonials-app/TestimonialsApp';
 // import TemperatureControllerApp from './projects/06-temperature-controller/TemperatureControllerApp';
-import LightAndDarkMode from './projects/07-light-and-dark-mode/LightAndDarkMode';
-import SLideToUnlock from './projects/08-slide-to-unlock/SLideToUnlock';
-import SliderApp from './projects/09-slider/SliderApp';
+// import LightAndDarkMode from './projects/07-light-and-dark-mode/LightAndDarkMode';
+// import SLideToUnlock from './projects/08-slide-to-unlock/SLideToUnlock';
+// import SliderApp from './projects/09-slider/SliderApp';
+import HiddenSearchBarApp from './projects/10-hidden-search-bar/HiddenSearchBarApp';
+import { PopupApp } from './projects/11-magic-popup/PopupApp';
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
       {/* <TemperatureControllerApp /> */}
       {/* <LightAndDarkMode /> */}
       {/* <SLideToUnlock /> */}
-      <SliderApp />
+      {/* <SliderApp /> */}
+      {/* <HiddenSearchBarApp /> */}
+      <PopupApp />
     </div>
   );
 }
