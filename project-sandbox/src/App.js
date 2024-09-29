@@ -1,4 +1,6 @@
 import './App.css';
+// import { ProgressBarsContainer } from './projects/12-progress-bars/ProgressBarsContainer';
+import DialogBox from './projects/13-dialog-box/DialogBox';
 // import RandomizeColor from './projects/02-randomize-colors/RandomizeColor';
 // import LikePhotoAp from './projects/03-like-my-photo/LikePhotoAp';
 // import AlertApp from './projects/05-alerts/AlertApp';
@@ -8,8 +10,8 @@ import './App.css';
 // import LightAndDarkMode from './projects/07-light-and-dark-mode/LightAndDarkMode';
 // import SLideToUnlock from './projects/08-slide-to-unlock/SLideToUnlock';
 // import SliderApp from './projects/09-slider/SliderApp';
-import HiddenSearchBarApp from './projects/10-hidden-search-bar/HiddenSearchBarApp';
-import { PopupApp } from './projects/11-magic-popup/PopupApp';
+// import HiddenSearchBarApp from './projects/10-hidden-search-bar/HiddenSearchBarApp';
+// import { PopupApp } from './projects/11-magic-popup/PopupApp';
 
 function App() {
   return (
@@ -25,7 +27,9 @@ function App() {
       {/* <SLideToUnlock /> */}
       {/* <SliderApp /> */}
       {/* <HiddenSearchBarApp /> */}
-      <PopupApp />
+      {/* <PopupApp /> */}
+      {/* <ProgressBarsContainer /> */}
+      <DialogBox />
     </div>
   );
 }
