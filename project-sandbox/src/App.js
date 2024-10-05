@@ -1,5 +1,6 @@
 import './App.css';
-import FilterContactsApp from './projects/14-filter-contacts-app/FilterContactsApp';
+// import FilterContactsApp from './projects/14-filter-contacts-app/FilterContactsApp';
+import RegForm from './projects/15-reg-form-validation/RegForm';
 // import { ProgressBarsContainer } from './projects/12-progress-bars/ProgressBarsContainer';
 // import DialogBox from './projects/13-dialog-box/DialogBox';
 // import RandomizeColor from './projects/02-randomize-colors/RandomizeColor';
@@ -31,7 +32,8 @@ function App() {
       {/* <PopupApp /> */}
       {/* <ProgressBarsContainer /> */}
       {/* <DialogBox /> */}
-      <FilterContactsApp />
+      {/* <FilterContactsApp /> */}
+      <RegForm />
     </div>
   );
 }
