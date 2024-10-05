@@ -1,6 +1,7 @@
 import './App.css';
+import FilterContactsApp from './projects/14-filter-contacts-app/FilterContactsApp';
 // import { ProgressBarsContainer } from './projects/12-progress-bars/ProgressBarsContainer';
-import DialogBox from './projects/13-dialog-box/DialogBox';
+// import DialogBox from './projects/13-dialog-box/DialogBox';
 // import RandomizeColor from './projects/02-randomize-colors/RandomizeColor';
 // import LikePhotoAp from './projects/03-like-my-photo/LikePhotoAp';
 // import AlertApp from './projects/05-alerts/AlertApp';
@@ -29,7 +30,8 @@ function App() {
       {/* <HiddenSearchBarApp /> */}
       {/* <PopupApp /> */}
       {/* <ProgressBarsContainer /> */}
-      <DialogBox />
+      {/* <DialogBox /> */}
+      <FilterContactsApp />
     </div>
   );
 }
