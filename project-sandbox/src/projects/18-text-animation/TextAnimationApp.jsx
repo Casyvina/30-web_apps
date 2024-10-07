@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import Button from '../components/Button'
-import FormGroup from './FormGroup'
+import FormGroup from '../components/FormGroup'
 import AnimatedText from "react-animated-text-content"
 
 const TextAnimationApp = () => {
