@@ -1,5 +1,6 @@
 import './App.css';
-import CardGameUI from './projects/22-card-game-ui/CardGameUI';
+import AnimatedLoginForm from './projects/23-animated-login-form/AnimatedLoginForm';
+// import CardGameUI from './projects/22-card-game-ui/CardGameUI';
 // import SpacePenguinApp from './projects/20-space-penguin/SpacePenguinApp';
 // import TasksTrackerApp from './projects/21-tasks-tracker/TasksTrackerApp';
 // import { ResponsiveNav } from './projects/17-responsive-nav/ResponsiveNav';
@@ -48,6 +49,7 @@ function App() {
       {/* <SpacePenguinApp /> */}
       {/* <TasksTrackerApp /> */}
       {/* <CardGameUI /> */}
+      <AnimatedLoginForm />
     </div>
   );
 }
