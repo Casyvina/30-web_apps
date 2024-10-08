@@ -1,5 +1,7 @@
 import './App.css';
-import SpacePenguinApp from './projects/20-space-penguin/SpacePenguinApp';
+import CardGameUI from './projects/22-card-game-ui/CardGameUI';
+// import SpacePenguinApp from './projects/20-space-penguin/SpacePenguinApp';
+// import TasksTrackerApp from './projects/21-tasks-tracker/TasksTrackerApp';
 // import { ResponsiveNav } from './projects/17-responsive-nav/ResponsiveNav';
 // import TextAnimationApp from './projects/18-text-animation/TextAnimationApp';
 // import CompoundInterestRateApp from './projects/19-compound-interest-rate-calc/CompoundInterestRateApp';
@@ -43,7 +45,9 @@ function App() {
       {/* <ResponsiveNav /> */}
       {/* <TextAnimationApp /> */}
       {/* <CompoundInterestRateApp /> */}
-      <SpacePenguinApp />
+      {/* <SpacePenguinApp /> */}
+      {/* <TasksTrackerApp /> */}
+      {/* <CardGameUI /> */}
     </div>
   );
 }
